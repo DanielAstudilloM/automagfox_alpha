@@ -28,9 +28,9 @@ The program and compilation should be done on any Linux system (including WSL) o
 
 9.- After line 90 add a new line with the following: CLOSE(9)
 
-10.- Replace line 208 for this command: WRITE(1,8723) cyc,tab,tcm,tab,ol(6)/(ol(6)+ol(5)),tab,tab,tab,tab,tab,tab,tab
+10.- Replace line 209 for this command: WRITE(1,8723) cyc,tab,tcm,tab,ol(6)/(ol(6)+ol(5)),tab,tab,tab,tab,tab,tab,tab
 
-11.- Replace line 211 for this command: 8723 FORMAT(i4,a4,f7.1,a4,f7.3,a4,'0',a4,'0',a4,'0',a4,'0',a4,'0',a4,'0',a4,'0'). Make sure all of the modified lines match the indentation of the surrounding code.
+11.- Replace line 212 for this command: 8723 FORMAT(i4,a4,f7.1,a4,f7.3,a4,'0',a4,'0',a4,'0',a4,'0',a4,'0',a4,'0',a4,'0'). Make sure all of the modified lines match the indentation of the surrounding code.
 
 12.- You are now ready to compile the program, save your changes on the same file or change the name if you desire to keep the original, but keep the .f90 extension. If using the recommended compiler, gfortran, you only need to use the console of your system. Go to the directory where the modified MAGFOX version is located and do the following command: "gfortran magfox.f90 -o a.out" (ignore the "). If you saved the modified file with a different name, replace magfox.f90 for the name of your file. This should create an executable file named a.out, the script will call this file to run the program.
 
