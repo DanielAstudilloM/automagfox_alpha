@@ -11,4 +11,5 @@ For the script to run however, it is necessary to download MAGFOX from the LPI w
 For questions about the functionality of the code please contact me at daniel.astudillo@ufl.edu
 
 Good luck
+
 Daniel
